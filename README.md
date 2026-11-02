@@ -1,8 +1,6 @@
-# The Missing Pieces — Student package
+# The Missing Pieces 
 
 ## Contents
-
-- `The_Missing_Pieces_Student.pdf` and `.tex`: student handout and editable source.
 - `evidence/damaged_colour/`: damaged colour previews for visual context only.
 - `evidence/images/`: grayscale detector inputs (512×512). Missing regions contain placeholders, not observations.
 - `evidence/masks/`: binary validity masks, where 255 = valid and 0 = missing.
@@ -11,7 +9,6 @@
 - `tools/detect_starter.py`: detector starter with TODOs.
 
 ## Requirements and use
-
 Requires Python 3, NumPy and Pillow. From this directory, run:
 
 ```bash
